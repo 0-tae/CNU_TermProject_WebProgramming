@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./Diary.css" rel="stylesheet" type="text/css" />
+    <title>My Individual Diary</title>
+  </head>
+  <body>
+    <div id="background_All">
+      <div class="background_Diary">
+        <div id="view_LeftOfDiary_WritingPage">
+          <button id="button_CloseDiary_WritingPage">일기장 덮기</button><br />
+          <button id="button_SaveDiary_WritingPage">일기장 보관</button>
+        </div>
+        <div id="view_RightOfDiary_WritingPage"></div>
+        <div
+          id="button_Menu_WritingPage"
+          style="
+            position: absolute;
+            left: 85%;
+            top: 10%;
+            width: 50px;
+            text-align: center;
+            background-color: white;
+          "
+          class="row hideChild"
+        >
+
+        
+
+          <div class="col menuChild">Menu</div>
+          <div class="col menuChild">닫기</div>
+          <div class="col menuChild">템플릿변경</div>
+          <div class="col menuChild">폰트지정</div>
+          <div class="col menuChild">임시저장</div>
+          <div class="col menuChild">exit</div>
+        </div>
+      </div>
+    </div>
+    <script src="./Diary.js"></script>
+  </body>
+</html>
